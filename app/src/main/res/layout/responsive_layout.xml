@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:srcCompat="http://schemas.android.com/tools">
+
+  <!--  <ImageView
+        android:id="@+id/tanzo_page2_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tanzo_page2_background" />
+
+
+    <ImageView
+        android:id="@+id/tanzo_page2_header2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tanzo_page2_background"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@id/guideline104"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/guideline103"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tanzo_page2_header2" />
+
+    <ImageView
+        android:id="@+id/tanzo_page2_header1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="0.3:0.1"
+        app:layout_constraintEnd_toEndOf="@id/guideline104"
+        app:layout_constraintStart_toStartOf="@id/guideline101"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tanzo_page2_header1" />
+
+
+    <ImageView
+        android:id="@+id/tanzo_page2_image1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:0.8"
+        app:layout_constraintEnd_toEndOf="@id/guideline104"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/guideline101"
+        app:layout_constraintTop_toBottomOf="@+id/tanzo_page2_header1"
+        app:srcCompat="@drawable/tanzo_page2_image1" />
+    
+
+    <ImageView
+        android:id="@+id/tanzo_page2_image2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="2:0.8"
+        app:layout_constraintEnd_toEndOf="@id/guideline104"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@id/guideline101"
+        app:layout_constraintTop_toBottomOf="@+id/tanzo_page2_image1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tanzo_page2_image2" />
+-->
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.0"
+        />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3"
+        />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       app:layout_constraintGuide_percent="0.7"/>
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline104"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.99"
+        />
+
+</android.support.constraint.ConstraintLayout>

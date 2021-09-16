@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:id="@+id/ciplinz_page8"
+    tools:context=".ProductB_Fragments.ProductB_Fragment_page_Eight">
+
+    <ImageView
+        android:id="@+id/ciplinz_id_page8_image1"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!-- android:src="@drawable/ciplinz_page8_image1"-->
+
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="240dp"
+        android:id="@+id/ciplinz_id_page8_image2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- android:src="@drawable/ciplinz_page8_image2"-->
+
+    <ImageView
+        android:id="@+id/ciplinz_id_page8_image3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="430dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<!--  android:src="@drawable/ciplinz_page8_image3"-->
+
+
+
+    <ImageView
+        android:id="@+id/ciplinz_id_page8_image4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="900dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!-- android:src="@drawable/ciplinz_page8_image4"-->
+
+    <!--Shine Anim-->
+    <ImageView
+        android:layout_marginTop="900dp"
+        android:id="@+id/shine_page8"
+        android:layout_width="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="250dp"
+        android:src="@drawable/shine_effect" />
+
+</RelativeLayout>
